@@ -102,4 +102,4 @@ while opcao != 4:
     if pergunta in 'Nn':
         print(f'\033[;1mRESULTADO: ACERTOS = {conta} e ERROS= {conte}\33[m')
         break
-testee
+
