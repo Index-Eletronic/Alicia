@@ -4,6 +4,7 @@ Faça um programa que insira as palavras numa lista e diga se estão corretas..
 import random
 from random import randint
 from time import sleep
+import paygame
 
 print('-=' * 10, "\33[0;30;41mBEM VINDO A PROFa.ALICIA V1.0\33[m", '-=' * 10 )
 print()
@@ -22,6 +23,7 @@ if opcao == 1:
     sleep(2)
     print('\033[1;35mOBJETIVO:\33[m ADIVINHE SE A PALABRA SORTEADA TEM "S", "SS", "C" OU "Ç".')
     sleep(2)
+    playsound.playsound('efeito.mp3')
 elif opcao == 2:
     print('\033[1;93m BEM VINDO A AULA DE MATEMÁTICA !\33[m')
     sleep(2)
