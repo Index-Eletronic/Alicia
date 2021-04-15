@@ -59,7 +59,7 @@ while opcao != 4:
            # sems =palavra.replace("Ç", "")
 
         print(f'A PALABRA SORTEADA É: {sems}')
-        resp = str(input('DIGITE A PALABRA CORRETA AQUI: ')).strip().upper()
+        resp = str(input('DIGITE A PALAVRA CORRETA AQUI: ')).strip().upper()
 
         if resp == palavra:
             print('\033[1;92mVOCÊ ACERTOU\33[m')
