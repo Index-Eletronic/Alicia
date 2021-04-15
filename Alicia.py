@@ -14,7 +14,7 @@ print('''        [1] - EXERCICÍOS DE PORTUGUÊS
         [2] - EXERCÍCIOS DE MATEMÁTICA
         [3] - EXERCÍCIOS DE GEOGRÁFIA
         [4] - SAIR DO PROGRAMA''')
-playsound.playsound('kid_francescoli_moon_-6694487603817081186.mp3')
+#playsound.playsound('kid_francescoli_moon_-6694487603817081186.mp3')
 opcao = int(input(' Digite a opção que deseja:'))
 conta = conte = 0
 n1 = 0
