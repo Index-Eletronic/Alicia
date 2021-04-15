@@ -22,7 +22,7 @@ n2 = 0
 if opcao == 1:
     print('\033[1;93mBEM VINDO A AULA DE PORTUGUÊS !\33[m')
     sleep(2)
-    print('\033[1;35mOBJETIVO:\33[m ADIVINHE SE A PALABRA SORTEADA TEM "S", "SS", "C" OU "Ç".')
+    print('\033[1;35mOBJETIVO:\33[m ADIVINHE SE A PALABRA SORTEADA TEM "S", "SS"')
     sleep(2)
 elif opcao == 2:
     print('\033[1;93m BEM VINDO A AULA DE MATEMÁTICA !\33[m')
@@ -69,10 +69,10 @@ while opcao != 4:
             print(f'A palavra correta é:\033[1;35m {palavra}\33[m')
             conte += 1
 
-        pergunta = str(input('Deseja continuar? [S/N]: ')).strip().upper()
-        if pergunta in 'Nn':
-            print(f'\033[;1mRESULTADO: ACERTOS = {conta} e ERROS= {conte}\33[m')
-            break
+            pergunta = str(input('Deseja continuar? [S/N]: ')).strip().upper()
+            if pergunta in 'Nn':
+                print(f'\033[;1mRESULTADO: ACERTOS = {conta} e ERROS= {conte}\33[m')
+                break
 
     elif opcao == 2:
         n1 = randint(0, 20)
@@ -100,8 +100,8 @@ while opcao != 4:
             print(f'O resultado correto é: {"Soma: ", soma, "Subitração: ", subi, "Multiplicação: ", mult}')
             conte += 1
 
-    pergunta = str(input('Deseja continuar? [S/N]: ')).strip().upper()
-    if pergunta in 'Nn':
-        print(f'\033[;1mRESULTADO: ACERTOS = {conta} e ERROS= {conte}\33[m')
-        break
+        pergunta = str(input('Deseja continuar? [S/N]: ')).strip().upper()
+        if pergunta in 'Nn':
+            print(f'\033[;1mRESULTADO: ACERTOS = {conta} e ERROS= {conte}\33[m')
+            break
 
