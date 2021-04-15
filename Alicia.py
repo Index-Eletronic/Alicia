@@ -4,7 +4,7 @@ Faça um programa que insira as palavras numa lista e diga se estão corretas..
 import random
 from random import randint
 from time import sleep
-import playsound
+#import playsound
 
 print('-=' * 10, "\33[0;30;41mBEM VINDO A PROFa.ALICIA V1.0\33[m", '-=' * 10 )
 print()
