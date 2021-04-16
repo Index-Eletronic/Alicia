@@ -14,23 +14,29 @@ print('''        [1] - EXERCICÍOS DE PORTUGUÊS
         [2] - EXERCÍCIOS DE MATEMÁTICA
         [3] - EXERCÍCIOS DE GEOGRÁFIA
         [4] - SAIR DO PROGRAMA''')
+
+def titulo(txt):
+    print('=' * 30)
+    print(f'\33[1;93m{txt}\33[m')
+    print('=' * 30)
+
 #playsound.playsound('kid_francescoli_moon_-6694487603817081186.mp3')
 opcao = int(input(' Digite a opção que deseja:'))
 conta = conte = 0
 n1 = 0
 n2 = 0
 if opcao == 1:
-    print('\033[1;93mBEM VINDO A AULA DE PORTUGUÊS !\33[m')
+    titulo('BEM VINDO A AULA DE PORTUGUÊS !')
     sleep(2)
     print('\033[1;35mOBJETIVO:\33[m ADIVINHE SE A PALABRA SORTEADA TEM "S", "SS"')
     sleep(2)
 elif opcao == 2:
-    print('\033[1;93m BEM VINDO A AULA DE MATEMÁTICA !\33[m')
+    titulo('BEM VINDO A AULA DE MATEMÁTICA !')
     sleep(2)
     print('\033[1;35mOBJETIVO:\33[m FAÇA AS CONTAS A SEGUIR.')
     sleep(2)
 elif opcao == 3:
-    print('BEM VINDO A AULA DE GEOGRÁFIA')
+   titulo('BEM VINDO A AULA DE INGLÊS !')
 
 elif opcao == 4:
     print('SAINDO DO PROGRAMA')
